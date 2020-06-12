@@ -15,7 +15,7 @@ namespace CariBilgi
 	
 	public class BusinessLayer : IBusinessLayer<Model, int>
 	{
-		SqlConnection sqlCon = new SqlConnection(@"Data Source=DESKTOP-INRNTK1\MSSQLSERVER2019;Initial Catalog=NEFA;Integrated Security=True");
+		SqlConnection sqlCon = new SqlConnection(@"Data Source=DESKTOP-INRNTK1\MSSQLSERVER2019;Initial Catalog=CARI;Integrated Security=True");
 		public bool Delete(Model item)
 		{
 			try
